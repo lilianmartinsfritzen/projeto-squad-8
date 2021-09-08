@@ -43,7 +43,7 @@ public class EmployeeService {
     }
 
     public List<Employee> listEmployeesEmail(final String email) {
-        return filteredByName(email);
+        return filteredByEmail(email);
     }
 
     public Employee foundId(final Long id){

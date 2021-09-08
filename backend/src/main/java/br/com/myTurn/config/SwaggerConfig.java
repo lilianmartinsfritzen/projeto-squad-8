@@ -1,4 +1,4 @@
-package br.com.myTurn.swaggerconfig;
+package br.com.myTurn.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
