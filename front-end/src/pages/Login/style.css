@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+.white-box {
+    background: white;
+    display: inline-block;
+    width: 50%;
+    height: 100vh;
+}
+
+.logo {
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 100%;
+    max-width: 259px;
+    max-height: 75px; 
+    /* falta deixar essa logo responsiva qd encolher a tela */
+}
+
+.login-form {
+    align-items: center;
+}
+
+.login-form p {
+    font-family: Montserrat;
+    font-size: 26px;
+    /* text-align: center; */
+    color: black;
+    font-weight: bold;
+}
+
+.login-form input{
+    width: 250px;
+    height: 35px;
+    /* display: block; */
+    margin-bottom: 3%;
+    margin-top: 0.5%;
+    
+}
+
+button {
+    display: block;
+    justify-content: flex-end;
+}
+
+.orange-box {
+    background-color: #FE662E;
+    position: absolute;
+    display: inline-block;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100vh;
+}
+
+.orange-box-content {
+    padding: 15%;
+}
+
+.orange-box-text {
+    font-family: Montserrat;
+    font-size: 140%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.ilustracao-login {
+    width: 100%;
+    max-width: 718px;
+    max-height: 718px; 
+}
