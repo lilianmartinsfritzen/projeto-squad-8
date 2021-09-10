@@ -20,7 +20,7 @@ const Login = () => {
       
     return (
         <>
-            <div className="white-box">
+            <aside className="white-box">
                 <h1><img className="logo" src={logo}></img></h1>
                 <form className="login-form" onSubmit={handleSubmit(onSubmit)}>
                     <p>Login</p>
@@ -35,16 +35,16 @@ const Login = () => {
                         name="password" 
                         type="password" 
                         placeholder="Senha"/>
-                    <Button type='submit'>Entrar</Button>
+                    <Button className="button" type='submit'>Entrar</Button>
                     {/* <button>Entrar</button> */}
                 </form>
-            </div>
-            <div className="orange-box">
+            </aside>
+            <main className="orange-box">
                 <div className="orange-box-content">
                     <p className="orange-box-text">Estamos aqui para facilitar o agendamento da sua ida ao escritório, fazendo com que ele se torne rápido e seguro para todos!</p>
                     <img className="ilustracao-login" src={ilustracaoLogin}></img>
                 </div>
-            </div>
+            </main>
         </>
     );
 }
