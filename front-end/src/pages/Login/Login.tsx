@@ -3,8 +3,8 @@ import { useForm } from "react-hook-form";
 
 import './style.css' 
 import { Button } from "../../components/Button";
-import logo from '../../assets/images/logo-fcamara.png'
-import ilustracaoLogin from '../../assets/images/ilustracao-login.png'
+import logo from '../../assets/images/logo-fcamara.svg'
+import ilustracaoLogin from '../../assets/images/ilustracao-login.svg'
 
 type FormData = {
     email: string;

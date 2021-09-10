@@ -2,8 +2,8 @@ import React from 'react';
 
 import './style.css' 
 import { Button } from "../../components/Button";
-import logo from '../../assets/images/logo-fcamara.png'
-import ilustracaoLogin from '../../assets/images/ilustracao-home.png'
+import logo from '../../assets/images/logo-fcamara.svg'
+import ilustracaoHome from '../../assets/images/ilustracao-home.svg'
 
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
             </aside>
             <main className="orange-box">
                 <div className="orange-box-content">
-                    <img className="ilustracao-home" src={ilustracaoLogin}></img>
+                    <img className="ilustracao-home" src={ilustracaoHome}></img>
                 </div>
             </main>
         </>
