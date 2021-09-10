@@ -18,12 +18,44 @@
 }
 
 .white-box-content {
-    padding-top: 30%;
+    /* padding-top: 30%;
     padding-left: 15%;
-    padding-right: 15%;
+    padding-right: 15%; */
+    /* position: absolute; */
+    /* display: flex;
+    align-items: center; */
+    padding: 10%;
+}
+
+.check-icon {
+    position: absolute;
+    width: 100%;
+    max-width: 103px;
+    max-height: 105.5px;
+}
+
+.white-box-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.orange-text {
+    color: #FE4400;
+    margin-bottom: 20px;
+}
+
+.info-text {
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .button {
+
+    position: flex;
+    justify-content: flex-end;
 
     border-radius: 10px;
     background-color: var(--orange-dark);
@@ -41,6 +73,7 @@
     line-height: 29px;
     /* transition: filter 0.6s; */
     margin-bottom: 5%;
+    
 }
 
 .orange-box {
