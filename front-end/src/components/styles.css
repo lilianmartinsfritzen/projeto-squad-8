@@ -1,0 +1,13 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    --black: #000000;
+    --grey: rgb(205, 205, 205);
+    --grey-button: #DCDCDC;
+    --white: #E5E5E5;
+    --orange: #FE662E;
+    --red: rgb(206, 36, 36);
+    
+  }
