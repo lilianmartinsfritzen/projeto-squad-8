@@ -6,8 +6,11 @@
     --black: #000000;
     --grey: rgb(205, 205, 205);
     --grey-button: #DCDCDC;
-    --white: #E5E5E5;
+    --grey-light: #E5E5E5;
     --orange: #FE662E;
     --red: rgb(206, 36, 36);
+    --orange-dark: #FE4400;
+    --grey-input: #DCDCDC;
+    --white: #FFFFFF;
     
   }
