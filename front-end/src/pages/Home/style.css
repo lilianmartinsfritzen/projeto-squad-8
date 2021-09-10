@@ -6,6 +6,10 @@
     justify-content: center;
 }
 
+.white-box-content {
+    padding: 15%;
+}
+
 .logo {
     position: absolute;
     justify-content: flex-start;
@@ -15,6 +19,26 @@
     max-width: 259px;
     max-height: 75px; 
     /* falta deixar essa logo responsiva qd encolher a tela */
+}
+
+.button {
+
+    border-radius: 10px;
+    background-color: var(--orange-dark);
+    box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
+    width: 542px;
+    height: 63px;
+    cursor: pointer;
+    border: 0;
+    
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* transition: filter 0.6s; */
+    margin-bottom: 5%;
 }
 
 .orange-box {

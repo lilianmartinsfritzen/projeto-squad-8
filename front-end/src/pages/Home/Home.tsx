@@ -11,8 +11,10 @@ const Home = () => {
         <>
             <aside className="white-box">
                 <h1><img className="logo" src={logo}></img></h1>
-                <div>
-                {/* <Button className="button" type='submit'>Entrar</Button> */}
+                <div className="white-box-content">
+                <Button className="button" type='submit'>Agendamento</Button>
+                <Button className="button" type='submit'>Desmarcar agendamento</Button>
+                <Button className="button" type='submit'>Relatórios (em breve)</Button>
                 </div>
             </aside>
             <main className="orange-box">
