@@ -13,7 +13,7 @@ const DesmarcarFinal = () => {
             <aside className="white-box">
                 <h1><img className="logo" src={logo}></img></h1>
                 <div className="white-box-content">
-                    <img className="logo" src={checkIncon}></img>
+                    <img className="check-icon" src={checkIncon}></img>
                     <div className="white-box-text">
                         <p className="orange-text">Agendamento desmarcado</p>
                         {/* Pegar informações sobre quem foi desmarcado!! */}
