@@ -1,0 +1,37 @@
+.white-box {
+    background: var(--white);
+    display: inline-block;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+}
+
+.logo {
+    position: absolute;
+    justify-content: flex-start;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 100%;
+    max-width: 259px;
+    max-height: 75px; 
+    /* falta deixar essa logo responsiva qd encolher a tela */
+}
+
+.orange-box {
+    background-color: #FE662E;;
+    position: absolute;
+    display: inline-block;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100vh;
+}
+
+.orange-box-content {
+    padding: 15%;
+}
+
+.ilustracao-home {
+    width: 100%;
+    max-width: 697px;
+    max-height: 689px; 
+}
