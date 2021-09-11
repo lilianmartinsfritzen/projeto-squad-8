@@ -1,10 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Login from './pages/Login/Login';
+import Home from './pages/Home/Home';
+import DesmarcarFinal from './pages/DesmarcarFinal/DesmarcarFinal';
 
 function App() {
   return (
-    <h1>My Turn!</h1>
+    <>
+      <DesmarcarFinal/>
+    </>
   );
 }
 
