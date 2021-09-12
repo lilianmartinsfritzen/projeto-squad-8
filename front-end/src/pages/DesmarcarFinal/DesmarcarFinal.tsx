@@ -9,8 +9,8 @@ import checkIncon from '../../assets/images/desmarcar-final-check.svg'
 
 const DesmarcarFinal = () => {
     return(
-        <>
-            <aside className="white-box">
+        <main className="main">
+            <section className="white-box">
                 <h1><img className="logo" src={logo}></img></h1>
                 <div className="white-box-content">
                     <img className="check-icon" src={checkIncon}></img>
@@ -21,13 +21,13 @@ const DesmarcarFinal = () => {
                     </div>
                     <Button className="button" type='submit'>Encerrar Sessão</Button>
                 </div>
-            </aside>
-            <main className="orange-box">
+            </section>
+            <section className="orange-box">
                 <div className="orange-box-content">
                     <img className="ilustracao-desmarcar-final" src={ilustracaoDesmarcarFinal}></img>
                 </div>
-            </main>
-        </>
+            </section>
+        </main>
     );
 }
 
