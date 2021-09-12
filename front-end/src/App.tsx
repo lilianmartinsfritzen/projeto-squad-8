@@ -6,7 +6,7 @@ import DesmarcarFinal from './pages/DesmarcarFinal/DesmarcarFinal';
 function App() {
   return (
     <>
-      <Login/>
+      <Home/>
     </>
   );
 }
