@@ -1,0 +1,241 @@
+.main {
+  display: flex;
+}
+
+.white-box {
+  display: flex;
+  background: var(--grey-light);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  width: 50%;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 259px;
+  max-height: 75px;
+  margin-top: 33px;
+  margin-left: 33px;
+  /* falta deixar essa logo responsiva qd encolher a tela */
+}
+
+.texto-selected {
+  font-weight: 600;
+  margin-top: 200px;
+  margin-bottom: 5px;
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+  border-radius: 10px 10px 0 0;
+  color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  width: 275px;
+  height: 76px;
+  left: 85px;
+  top: 243px;
+  padding: 0 32px;
+  cursor: pointer;
+  border: 0;
+}
+
+.button-saopaulo {
+  justify-content: center;
+  background-color: var(--orange);
+}
+
+.button-santos {
+  justify-content: center;
+  background-color: var(--grey-button);
+  color: var(--orange);
+}
+
+/* .button .outlined {
+  background: var(--grey-button);
+  border: 1px solid var(--grey-button);
+  color: var(--grey-button);
+}
+
+.button:not(:disabled):hover {
+  filter: brightness(0.9);
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+} */
+
+.calendar {
+  background-color: var(--orange);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  width: 550px;
+  height: 380px;
+  left: 85px;
+  top: 319px;
+  cursor: pointer;
+}
+
+.calendar .header {
+  display: flex;
+  border-radius: 0;
+  background-color: var(--orange);
+  color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  height: 53px;
+}
+
+.calendar .day-names {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--orange);
+  align-self: center;
+}
+
+.calendar .header .previous {
+  flex: 1;
+  text-align: left;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.calendar .header .next {
+  flex: 1;
+  text-align: right;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.calendar .week {
+  background-color: var(--orange);
+  color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  width: calc(100% / 7);
+  height: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  align-items: center;
+
+}
+
+.calendar .week div {
+  width: 100%;
+}
+
+.calendar .day {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  width: calc(100% / 7);
+  display: inline-block;
+  color: var(--white);
+  align-items: center;
+  text-align: center;
+
+}
+
+.calendar .day div {
+  margin: auto;
+  padding: auto;
+  width: 54px;
+  height: 44px;
+}
+
+.calendar .day div.before {
+  color: var(--grey);
+}
+
+.calendar .day div.selected {
+  background-color: var(--red);
+  color: var(--white);
+  font-weight: bold;
+}
+
+.calendar .day div.today {
+  background-color: var(--grey);
+}
+
+
+
+.workspace {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 53px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.selected-workspace {
+  margin-top: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  width: 277px;
+  height: 41px;
+  background: var(--white);
+  border: 4px solid var(--orange);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.31);
+  border-radius: 10px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url('../../assets/images/selector-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) center;
+}
+
+.button-schedule {
+  background-color: var(--orange-dark);
+  border-radius: 10px;
+  margin-top: 67px;
+  align-self: flex-end;
+  margin-right: 13%;
+
+}
+
+.orange-box {
+  background-color: var(--orange);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.calendar-ilustration {
+  width: 100%;
+  height: 716px;
+}

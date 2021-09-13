@@ -1,0 +1,123 @@
+.main {
+  display: flex;
+} 
+
+.white-box {
+  display: flex;
+  background: var(--grey-light);
+  width: 50%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 259px;
+  max-height: 75px;
+  margin-top: 33px;
+  margin-left: 33px;
+  /* falta deixar essa logo responsiva qd encolher a tela */
+}
+
+.white-box-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.deselect-schedule {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: var(--orange-dark);
+}
+
+.button-orange {
+  border-radius: 10px;
+  background-color: var(--orange-dark);
+  box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.26);
+  width: 542px;
+  height: 108px;
+  cursor: pointer;
+  border: 0;
+  color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+  margin-top: 63px;
+  margin-bottom: 28px;
+  padding: 22px;
+}
+
+.button-grey {
+  border-radius: 10px;
+  background-color: var(--grey-button);
+  box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.26);
+  width: 542px;
+  height: 108px;
+  cursor: pointer;
+  border: 0;
+  color: var(--dark);
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+  padding: 22px;
+}
+
+.button-deselect {
+  margin-left: 428px;
+  margin-top: 308px;
+  margin-right: calc(15%);
+  border-radius: 10px;
+  background-color: var(--orange-dark);
+  box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.26);
+  width: 197px;
+  height: 63px;
+  cursor: pointer;
+  border: 0;
+  color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.orange-box {
+  background-color: var(--orange);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+}
+
+.orange-box-content {
+  padding: 15%;
+}
+
+.calendar-ilustration {
+  width: 100%;
+  max-width: 720px;
+  max-height: 716px;
+}

@@ -1,0 +1,131 @@
+.main {
+  display: flex;
+}
+
+.white-box {
+  display: flex;
+  background: var(--grey-light);
+  width: 50%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 259px;
+  max-height: 75px;
+  margin-top: 33px;
+  margin-left: 33px;
+  /* falta deixar essa logo responsiva qd encolher a tela */
+}
+
+.white-box-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.image-date {
+  /* position: absolute; */
+  /* margin-top: 231px; */
+  width: 100%;
+  max-width: 103px;
+  max-height: 105.5px;
+}
+
+.white-box-text {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+
+.scheduling {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  margin-top: 8px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: var(--orange-dark);
+}
+
+.date {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  margin-top: 81px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: var(--black);
+}
+
+.address {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 12px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: var(--black);
+}
+
+.confirmed-workspace {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 81px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: var(--black);
+}
+
+.button {
+  margin-top: 123px;
+  margin-bottom: 200px;
+  margin-right: 75px;
+  align-self: flex-end;
+  border-radius: 10px;
+  background-color: var(--orange-dark);
+  box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.26);
+  width: 320px;
+  height: 63px;
+  cursor: pointer;
+  border: 0;
+  color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.orange-box {
+  background-color: var(--orange);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+}
+
+.orange-box-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15%;
+}
+
+.confirmation {
+  width: 100%;
+  max-width: 691px;
+  max-height: 691px;
+  left: 734px;
+  top: 122px;
+}

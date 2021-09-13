@@ -1,0 +1,119 @@
+.main {
+  display: flex;
+}
+
+.white-box {
+  display: flex;
+  background: var(--grey-light);
+  width: 50%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 259px;
+  max-height: 75px;
+  margin-top: 33px;
+  margin-left: 33px;
+  /* falta deixar essa logo responsiva qd encolher a tela */
+}
+
+.login-form {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: center;
+}
+
+.login-form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 58px;
+}
+
+.login-form label {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: var(--black);
+}
+
+.login-form input{
+  width: 436px;
+  height: 63px;
+  left: 130px;
+  top: 389px;
+  font-family: Montserrat;
+  font-size: 16px;
+  background: var(--grey-input);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 3%;
+  border: 0;   
+}
+
+
+.button {
+  border-radius: 10px;
+  background-color: var(--orange-dark);
+  left: 27.99%;
+  right: 60.69%;
+  top: 63.96%;
+  bottom: 29.88%;
+  box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
+  width: 163px;
+  height: 63px;
+  cursor: pointer;
+  border: 0;
+  align-self: flex-end;
+  color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* transition: filter 0.6s; */
+}
+
+.orange-box {
+  background-color: var(--orange);
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  height: 100vh;
+}
+
+.orange-box-content {
+  padding: 5%;
+  flex-direction: column;
+  align-self: center;
+  margin: auto;
+}
+
+.orange-box-text {
+  max-width: 720px;
+  max-height: 129px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: var(--white);
+}
+
+.ilustracao-login {
+  width: 100%;
+  max-width: 718px;
+  max-height: 718px;
+  left: 720px;
+  top: 252px;
+}
