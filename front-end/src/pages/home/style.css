@@ -1,5 +1,7 @@
 .main {
   display: flex;
+  /* a cada em será considerado 10px */
+  font-size: 62.5%;
 }
 
 .white-box {
@@ -42,7 +44,7 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 3.6em;
   line-height: 44px;
   color: var(--black);
 }
@@ -53,7 +55,7 @@
   left: 130px;
   top: 389px;
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 1.6em;
   background: var(--grey-input);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
@@ -79,7 +81,7 @@
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 2.4em;
   line-height: 29px;
   /* transition: filter 0.6s; */
 }
@@ -89,8 +91,8 @@
   display: flex;
   justify-content: flex-end;
   width: 50%;
-  height: 100%;
   max-width: 720px;
+  height: 100%;
 }
 
 .orange-box-content {
@@ -106,7 +108,7 @@
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 2.4em;
   line-height: 29px;
   text-align: center;
   color: var(--white);
