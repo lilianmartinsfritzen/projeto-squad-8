@@ -6,8 +6,8 @@
   display: flex;
   background: var(--grey-light);
   width: 50%;
-  max-width: 720px;
   height: 100%;
+  max-width: 720px;
   justify-content: center;
   align-items: center;
 }
@@ -89,8 +89,8 @@
   display: flex;
   justify-content: flex-end;
   width: 50%;
-  max-width: 720px;
   height: 100%;
+  max-width: 720px;
 }
 
 .orange-box-content {
