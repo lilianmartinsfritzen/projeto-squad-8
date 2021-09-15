@@ -1,3 +1,7 @@
+html {
+  font-size: 62.5%;
+}
+
 .main {
   display: flex;
 }
@@ -6,13 +10,12 @@
   display: flex;
   background: var(--grey-light);
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 2.4rem;
   width: 50%;
-  height: 100vh;
+  height: 130vh;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
 }
 
 .logo {
@@ -20,88 +23,60 @@
   top: 0;
   left: 0;
   width: 100%;
-  max-width: 259px;
-  max-height: 75px;
-  margin-top: 33px;
-  margin-left: 33px;
-  /* falta deixar essa logo responsiva qd encolher a tela */
+  max-width: 229px;
+  max-height: 45;
+  margin-top: 2.9%;
+  margin-left: 2.9%;
 }
 
 .texto-selected {
   font-weight: 600;
-  margin-top: 200px;
-  margin-bottom: 5px;
+  margin-top: 20%;
+  margin-bottom: 2vh;
 }
 
 .button {
-  margin: 0;
-  padding: 0;
   border-radius: 10px 10px 0 0;
   color: var(--white);
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  width: 275px;
-  height: 76px;
-  left: 85px;
-  top: 243px;
-  padding: 0 32px;
+  font-size: 2.4rem;
+  width: 20.15vw;
+  height: 10vh;
   cursor: pointer;
   border: 0;
 }
 
 .button-saopaulo {
-  justify-content: center;
   background-color: var(--orange);
 }
 
 .button-santos {
-  justify-content: center;
   background-color: var(--grey-button);
   color: var(--orange);
 }
 
-/* .button .outlined {
-  background: var(--grey-button);
-  border: 1px solid var(--grey-button);
-  color: var(--grey-button);
-}
-
-.button:not(:disabled):hover {
-  filter: brightness(0.9);
-}
-
-.button:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-} */
-
 .calendar {
   background-color: var(--orange);
   border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
-  width: 550px;
-  height: 380px;
-  left: 85px;
-  top: 319px;
+  width: 40.30vw;
+  height: 47vh;
   cursor: pointer;
+  margin-bottom: 30px;
 }
 
 .calendar .header {
   display: flex;
-  border-radius: 0;
   background-color: var(--orange);
   color: var(--white);
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 2.4rem;
+  /* line-height: 29px; */
   align-items: center;
-  height: 53px;
+  height: 6vh;
 }
 
 .calendar .day-names {
@@ -131,10 +106,8 @@
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 36px;
-  line-height: 44px;
+  font-size: 3.6rem;
   width: calc(100% / 7);
-  height: 44px;
   text-align: center;
   text-transform: uppercase;
   align-items: center;
@@ -149,8 +122,8 @@
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 36px;
-  line-height: 44px;
+  font-size: 3.6rem;
+  /* line-height: 44px; */
   width: calc(100% / 7);
   display: inline-block;
   color: var(--white);
@@ -159,15 +132,15 @@
 
 }
 
-.calendar .day div {
-  margin: auto;
+/* .calendar .day div {
+  margin: auto; 
   padding: auto;
   width: 54px;
-  height: 44px;
-}
+  height: 44px; 
+} */
 
 .calendar .day div.before {
-  color: var(--grey);
+  color: var(--red);
 }
 
 .calendar .day div.selected {
@@ -177,31 +150,32 @@
 }
 
 .calendar .day div.today {
-  background-color: var(--grey);
+  background-color: var(--white);
+  color: var(--red);
 }
-
-
 
 .workspace {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 53px;
 
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 600;
+
+  margin-bottom: 30px;
+}
+
+.workspace p {
+  margin-bottom: 30px;
 }
 
 .selected-workspace {
-  margin-top: 8px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  width: 277px;
-  height: 41px;
+  font-size: 1.8rem;
+  width: 25vw;
+  height: 7vh;
   background: var(--white);
   border: 4px solid var(--orange);
   box-sizing: border-box;
@@ -213,14 +187,21 @@
   background-image: url('../../assets/images/selector-arrow.svg');
   background-repeat: no-repeat;
   background-position: calc(100% - 10px) center;
+  padding: 2%;
 }
 
 .button-schedule {
   background-color: var(--orange-dark);
   border-radius: 10px;
-  margin-top: 67px;
+  box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
+  min-width: 197;
+  min-height: 63px;
+  width: 20vw;
+  height: 10vh;
   align-self: flex-end;
-  margin-right: 13%;
+  cursor: pointer;
+  margin-right: 5%;
+  margin-top: 5%;
 
 }
 
@@ -230,12 +211,16 @@
   justify-content: flex-end;
   align-items: center;
   width: 50%;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
+  height: 130vh;
+}
+
+.orange-box-content {
+  padding: 15%;
+  margin-bottom: 30vh;
 }
 
 .calendar-ilustration {
   width: 100%;
-  height: 716px;
+  max-width: 720px;
+  max-height: 716px;
 }
