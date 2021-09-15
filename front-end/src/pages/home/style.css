@@ -172,6 +172,10 @@ html {
 
 @media (max-width: 471px) {
 
+  html {
+    font-size: 62.5%;
+  }
+
   .white-box {
     flex-direction: column;
   }
