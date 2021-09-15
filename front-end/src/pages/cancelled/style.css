@@ -26,6 +26,7 @@ html {
   max-height: 75px;
   margin-top: 2.9%;
   margin-left: 2.9%;
+  /* margin-bottom: 2.9%; */
 }
 
 .white-box-content {
@@ -40,6 +41,7 @@ html {
   margin-bottom: 13.5px;
   width: 100%;
   max-width: 80px;
+  margin-top: 13.5px;
   /* max-height: 105.5px; */
 }
 
@@ -103,7 +105,7 @@ html {
   top: 199px; 
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1000px) {
   html {
     font-size: 50%;
   }
@@ -125,10 +127,35 @@ html {
 
   .button {
     align-self: center;
+    width: 40vw;
+    height: 8vh;
+    font-size: 2.6rem;
   }
 
   .orange-box {
     display: none;
   }
 
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 425px) {
+  /* html {
+    font-size: 35%;
+  } */
+
+  .check-icon {
+    width: 15vw;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 30%;
+  }
 }
