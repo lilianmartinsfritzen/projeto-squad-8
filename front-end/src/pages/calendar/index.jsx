@@ -66,11 +66,13 @@ export function Calendar({ currentDate, onChange }) {
         <Button type="submit" className="button button-schedule">Agendar</Button>
       </section>
       <section className="orange-box">
-        <img
-          className="calendar-ilustration"
-          src={calendarImg}
-          alt="Ilustração de calendário"
-        />
+        <div className="orange-box-content">
+          <img
+            className="calendar-ilustration"
+            src={calendarImg}
+            alt="Ilustração de calendário"
+          />
+        </div>
       </section>
     </main>
   )
