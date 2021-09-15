@@ -126,16 +126,22 @@ html {
   }
 }
 
-@media (max-width: 668px) {
+@media (max-width: 720px) {
   .main {
     flex-direction: column;
   }
 
   .logo {
-    width: 40%;
+    display: none;
+  }
+
+  .logo-mobile-version {
+    display: flex;
+    width: 30vw;
   }
 
   .white-box {
+    flex-direction: column;
     width: 100%;
     height: 100vh;
   }
@@ -148,25 +154,11 @@ html {
   .button {
     width: 23vw;
     height: 9vh;
+    align-self: center;
   }
 
   .orange-box {
-    width: 100%;
-    height: 50%;
-  }
-
-  .orange-box-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .orange-box-text {
-    font-size: 3rem;
-  }
-
-  .ilustracao-login {
-    width: 60%;
+    display: none;
   }
 }
 
@@ -176,16 +168,8 @@ html {
     font-size: 62.5%;
   }
 
-  .white-box {
-    flex-direction: column;
-  }
-
-  .logo {
-    display: none;
-  }
-
   .logo-mobile-version {
-    display: flex;
+    /* display: flex; */
     width: 194px;
     height: 56px;
   }
