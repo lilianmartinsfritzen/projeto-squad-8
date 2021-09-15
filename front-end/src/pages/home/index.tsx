@@ -22,7 +22,12 @@ const Login = () => {
       <section className="white-box">
         <h1>
           <img
-            className="logo" 
+            className="logo"
+            src={logoFCamaraImg}
+            alt="Logotipo FCamara"
+            />
+            <img
+            className="logo-mobile-version" 
             src={logoFCamaraImg}
             alt="Logotipo FCamara"
             />

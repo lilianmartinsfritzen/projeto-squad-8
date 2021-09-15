@@ -29,6 +29,10 @@ html {
   margin-left: 2.9%;
 }
 
+.logo-mobile-version {
+    display: none;
+}
+
 .login-form {
   display: flex;
   flex-direction: column;
@@ -175,6 +179,41 @@ html {
 }
 
 @media (max-width: 471px) {
+
+  .white-box {
+    flex-direction: column;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-mobile-version {
+    display: flex;
+    width: 194px;
+    height: 56px;
+  }
+
+  .login-form {
+    margin-top: 5%;
+  }
+
+  .login-form label {
+    font-size: 1.8rem;
+  }
+  
+  .login-form input{
+    font-size: 1.2rem;
+    height: 35px;
+    left: 58px;
+  }
+  
+  .button {
+    width: 105px;
+    height: 35px;
+    align-self: center;
+    font-size: 1.8rem;
+  }
   .orange-box {
     display: none;
   }
