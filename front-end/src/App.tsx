@@ -21,12 +21,14 @@ export function App(){
         {/* <Route path="/options" component={Options} />
         <Route path="/options" component={Options} /> */}
 
-        {/* <ChangeCalendar /> */}
+        {/* <Dashboard /> */} 
+        {/* <Login /> */}
         {/* <Cancelled /> */}
-        {/* <Dashboard /> */}
-        <Login />
         {/* <Scheduled /> */}
-        {/* <ScheduleList /> */}
+
+        {/* <ChangeCalendar /> */}
+        <ScheduleList />
+
       </Switch>
     </BrowserRouter>
   );

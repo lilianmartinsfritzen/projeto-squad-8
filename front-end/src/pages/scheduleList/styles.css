@@ -1,3 +1,8 @@
+html {
+  /* a cada em será considerado 10px */
+  font-size: 62.5%;
+}
+
 .main {
   display: flex;
 } 
@@ -18,106 +23,194 @@
   width: 100%;
   max-width: 259px;
   max-height: 75px;
-  margin-top: 33px;
-  margin-left: 33px;
+  margin-top: 2.9%;
+  margin-left: 2.9%;
   /* falta deixar essa logo responsiva qd encolher a tela */
 }
 
 .white-box-content {
   display: flex;
   flex-direction: column;
-  padding: 0;
-  margin: 0;
   align-items: center;
-  justify-content: center;
+ justify-content: center;
 }
 
 .deselect-schedule {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
+  font-size: 3rem;
   text-align: center;
   color: var(--orange-dark);
+  margin-bottom: 10%;
+  margin-top: 100px;
 }
 
 .button-orange {
   border-radius: 10px;
   background-color: var(--orange-dark);
-  box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.26);
-  width: 542px;
-  height: 108px;
+  box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
+  width: 40vw;
+  height: 15vh;
   cursor: pointer;
   border: 0;
   color: var(--white);
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 2rem;
+  line-height: 2.9rem;
+  margin-bottom: 5%;
   text-align: left;
-  margin-top: 63px;
-  margin-bottom: 28px;
-  padding: 22px;
+  align-self: center;
+  padding: 2%;
 }
 
 .button-grey {
   border-radius: 10px;
   background-color: var(--grey-button);
-  box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.26);
-  width: 542px;
-  height: 108px;
+  box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
+  width: 40vw;
+  height: 15vh;
   cursor: pointer;
   border: 0;
-  color: var(--dark);
+  color: var(--white);
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
+  color: var(--dark);
   font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 2rem;
+  line-height: 2.9rem;
+  margin-bottom: 5%;
   text-align: left;
-  padding: 22px;
+  align-self: center;
+  padding: 2%;
 }
 
 .button-deselect {
-  margin-left: 428px;
-  margin-top: 308px;
-  margin-right: calc(15%);
   border-radius: 10px;
-  background-color: var(--orange-dark);
-  box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.26);
-  width: 197px;
-  height: 63px;
+  background-color: var(--orange);
+  box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
+  width: 15vw;
+  height: 9vh;
   cursor: pointer;
   border: 0;
   color: var(--white);
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  text-align: center;
+  font-size: 2rem;
+  line-height: 2.9rem;
+  margin-bottom: 5%;
+  align-self: flex-end; 
+  margin-top: 15%;
 }
 
 .orange-box {
   background-color: var(--orange);
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   width: 50%;
   height: 100vh;
 }
 
 .orange-box-content {
-  padding: 15%;
+  padding: 5%;
+  flex-direction: column;
+  align-self: center;
+  /* margin: auto; */
 }
 
 .calendar-ilustration {
   width: 100%;
   max-width: 720px;
   max-height: 716px;
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+
+  .logo {
+    width: 20%;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .logo {
+    display: none;
+  }
+
+  .white-box {
+    width: 100%;
+  }
+
+  .deselect-schedule {
+    font-size: 3.5rem;
+  }
+
+  .button-orange {
+    width: 60vw;
+  }
+
+  .button-grey {
+    width: 60vw;
+  }
+
+  .button-deselect {
+    width: 30vw;
+    align-self: center;
+  }
+
+  .orange-box {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  html {
+    font-size: 48%;
+  }
+}
+
+@media (max-width: 375px) {
+  .deselect-schedule {
+    font-size: 2.9rem;
+  }
+
+  .button-orange {
+    height: auto;
+    padding: 10px;
+  }
+
+  .button-grey {
+    height: auto;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .deselect-schedule {
+    font-size: 2.7rem;
+  }
+
+  .button-orange {
+    width: 192px;
+    height: 86px;
+    padding: 10px;
+  }
+
+  .button-grey {
+    width: 192px;
+    height: 86px;
+    padding: 10px;
+  }
+
+  .button-deselect {
+    width: 96px;
+    height: 49.13px;
+    align-self: center;
+  }
 }

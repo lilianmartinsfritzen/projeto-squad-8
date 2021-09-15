@@ -1,3 +1,8 @@
+
+html {
+  font-size: 62.5%;
+}
+
 .main {
   display: flex;
 }
@@ -9,6 +14,7 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
+  padding: 5%;
 }
 
 .logo {
@@ -18,73 +24,63 @@
   width: 100%;
   max-width: 259px;
   max-height: 75px;
-  margin-top: 33px;
-  margin-left: 33px;
-  /* falta deixar essa logo responsiva qd encolher a tela */
+  margin-top: 2.9%;
+  margin-left: 2.9%;
 }
 
 .white-box-content {
-  padding: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 20%;
 }
 
 .check-icon {
-  /* position: absolute; */
-  margin-top: 231px;
   margin-bottom: 13.5px;
   width: 100%;
-  max-width: 103px;
-  max-height: 105.5px;
+  max-width: 80px;
+  margin-top: 13.5px;
 }
 
 .white-box-text {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-size: 36px;
-  line-height: 44px;
+  font-size: 3rem;
   text-align: center;
 }
 
 .orange-text {
   color: var(--orange-dark);
-  /* margin-bottom: 20px; */
 }
 
 .info-text {
   font-weight: bold;
-  margin-top: 104px;
-  margin-bottom: 130px;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .button {
-  margin-bottom: 200px;
   align-self: flex-end;
   border-radius: 10px;
   background-color: var(--orange-dark);
   box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
-  width: 320px;
-  height: 63px;
+  width: 22vw;
+  height: 6.15vh;
   cursor: pointer;
   border: 0;
   color: var(--white);
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  /* transition: filter 0.6s; */
-  /* margin-bottom: 5%;    */
+  font-size: 2rem;
 }
 
 .orange-box {
   background-color: var(--orange);
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   width: 50%;
   height: 100vh;
 }
@@ -99,4 +95,55 @@
   max-height: 689px;
   left: 731px;
   top: 199px; 
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+
+  .logo {
+    width: 20%;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .logo {
+    display: none;
+  }
+
+  .white-box {
+    width: 100%;
+  }
+
+  .button {
+    align-self: center;
+    width: 40vw;
+    height: 8vh;
+    font-size: 2.6rem;
+  }
+
+  .orange-box {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .check-icon {
+    width: 15vw;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 30%;
+  }
 }
