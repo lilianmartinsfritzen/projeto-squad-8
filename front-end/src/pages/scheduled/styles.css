@@ -1,5 +1,5 @@
 html {
-  font-size: 40%;
+  font-size: 62.5%;
 }
 
 .main {
@@ -32,12 +32,13 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 5%;
   /* margin-top: 20%; */
 }
 
 .image-date {
   margin-bottom: 13.5px;
-  width: 8vw;
+  width: 7vw;
   max-width: 100px;
   margin-top: 13.5px;
 }
@@ -51,27 +52,27 @@ html {
 
 .scheduling {
   font-weight: 600;
-  font-size: 3.6rem;
+  font-size: 2.4rem;
   color: var(--orange-dark);
   margin-bottom: 6%;
 }
 
 .date {
   font-weight: 600;
-  font-size: 3.6rem;
+  font-size: 2.4rem;
   color: var(--black);
   margin-bottom: 6%;
 }
 
 .address {
   font-weight: 500;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   color: var(--black);
 }
 
 .confirmed-workspace {
   font-weight: 500;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   color: var(--black);
   margin-bottom: 6%;
 }
@@ -89,7 +90,7 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
 }
 
 .orange-box {
@@ -110,3 +111,53 @@ html {
   max-width: 691px;
   max-height: 691px;
 }
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+
+  .logo {
+    width: 20%;
+  }
+}
+
+@media (max-width: 720px) {
+  .logo {
+    display: none;
+  }
+
+  .white-box {
+    width: 100%;
+  }
+
+  .image-date {
+    margin-bottom: 13.5px;
+    width: 57.59px;
+    /* height: ; */
+  }
+
+  .button {
+    align-self: center;
+    width: 40vw;
+    height: 8vh;
+    /* font-size: 2.6rem; */
+  }
+
+  .orange-box {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  html {
+    font-size: 53%;
+  }
+
+}
+
+/* @media (max-width: 375px) {
+  html {
+    font-size: 40%;
+  }
+} */
