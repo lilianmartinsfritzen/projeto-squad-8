@@ -44,7 +44,7 @@ const Login = () => {
               type="password"
               placeholder="Senha" />
           </div>
-          <Button className="button" type='submit'>Entrar</Button>
+          <Button className="button" type="submit">Entrar</Button>
           {/* <button>Entrar</button> */}
         </form>
       </section>

@@ -4,12 +4,9 @@ import "./styles.css";
 
 import { Calendar } from "../pages/calendar/index";
 
-// type CurrentDateProps = {
-  
-// }
-
 const ChangeCalendar = () => {
   const [currentDate, setCurrentDate] = useState(moment());
+  
   return <Calendar currentDate={currentDate} onChange={setCurrentDate} />;
 }
 
