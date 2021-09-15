@@ -39,7 +39,7 @@ html {
 .check-icon {
   margin-bottom: 13.5px;
   width: 100%;
-  max-width: 85px;
+  max-width: 80px;
   /* max-height: 105.5px; */
 }
 
@@ -86,6 +86,7 @@ html {
   background-color: var(--orange);
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   width: 50%;
   height: 100vh;
 }
@@ -103,5 +104,31 @@ html {
 }
 
 @media (max-width: 960px) {
+  html {
+    font-size: 50%;
+  }
+
+  .logo {
+    width: 20%;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .logo {
+    display: none;
+  }
+
+  .white-box {
+    width: 100%;
+  }
+
+  .button {
+    align-self: center;
+  }
+
+  .orange-box {
+    display: none;
+  }
 
 }
