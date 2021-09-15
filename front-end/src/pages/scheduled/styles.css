@@ -1,3 +1,7 @@
+html {
+  font-size: 40%;
+}
+
 .main {
   display: flex;
 }
@@ -9,6 +13,7 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
+  padding: 2%;
 }
 
 .logo {
@@ -18,9 +23,8 @@
   width: 100%;
   max-width: 259px;
   max-height: 75px;
-  margin-top: 33px;
-  margin-left: 33px;
-  /* falta deixar essa logo responsiva qd encolher a tela */
+  margin-top: 2.9%;
+  margin-left: 2.9%;
 }
 
 .white-box-content {
@@ -28,82 +32,64 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0;
-  margin: 0;
+  /* margin-top: 20%; */
 }
 
 .image-date {
-  /* position: absolute; */
-  /* margin-top: 231px; */
-  width: 100%;
-  max-width: 103px;
-  max-height: 105.5px;
+  margin-bottom: 13.5px;
+  width: 8vw;
+  max-width: 100px;
+  margin-top: 13.5px;
 }
 
 .white-box-text {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   text-align: center;
+  margin-bottom: 13.5px;
 }
 
 .scheduling {
   font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  margin-top: 8px;
-  margin-left: 10%;
-  margin-right: 10%;
+  font-size: 3.6rem;
   color: var(--orange-dark);
+  margin-bottom: 6%;
 }
 
 .date {
   font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  margin-top: 81px;
-  margin-left: 10%;
-  margin-right: 10%;
+  font-size: 3.6rem;
   color: var(--black);
+  margin-bottom: 6%;
 }
 
 .address {
   font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  margin-top: 12px;
-  margin-left: 10%;
-  margin-right: 10%;
+  font-size: 2.4rem;
   color: var(--black);
 }
 
 .confirmed-workspace {
   font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  margin-top: 81px;
-  margin-left: 10%;
-  margin-right: 10%;
+  font-size: 2.4rem;
   color: var(--black);
+  margin-bottom: 6%;
 }
 
 .button {
-  margin-top: 123px;
-  margin-bottom: 200px;
-  margin-right: 75px;
   align-self: flex-end;
   border-radius: 10px;
   background-color: var(--orange-dark);
-  box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.26);
-  width: 320px;
-  height: 63px;
+  box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
+  width: 22vw;
+  height: 6.15vh;
   cursor: pointer;
   border: 0;
   color: var(--white);
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 2.4rem;
 }
 
 .orange-box {
@@ -116,9 +102,6 @@
 }
 
 .orange-box-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 15%;
 }
 
@@ -126,6 +109,4 @@
   width: 100%;
   max-width: 691px;
   max-height: 691px;
-  left: 734px;
-  top: 122px;
 }
