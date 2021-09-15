@@ -39,6 +39,7 @@ html {
 }
 
 .button {
+  /* display: flex; */
   border-radius: 10px;
   background-color: var(--orange-dark);
   box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
@@ -54,6 +55,7 @@ html {
   font-size: 2.4rem;
   line-height: 2.9rem;
   margin-bottom: 5%;
+  align-self: center;
 }
 
 .orange-box {
@@ -67,7 +69,10 @@ html {
 .orange-box-content {
   padding: 15%;
   flex-direction: column;
-  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .ilustracao-home {
@@ -88,21 +93,13 @@ html {
   }
 }
 
-@media (max-width: 726px) {
-  html {
-    font-size: 40%;
-  }
-}
-
-
-@media (max-width: 471px) {
-
+@media (max-width: 720px) {
   html {
     font-size: 62.5%;
   }
 
   .white-box {
-    width: 100vh;
+    width: 100vw;
   }
 
   .logo {
@@ -112,33 +109,25 @@ html {
   .waves {
     display: flex;
     width: 100vw;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
   }
-  
+
   .button {
     width: 72vw;
     height: 6.5vh;
     font-size: 1.8rem;
   }
+
   .orange-box {
     display: none;
   }
 }
 
-@media (max-width: 350px) {
+
+@media (max-width: 471px) {
+
   html {
-    font-size: 50%;
-  }
-
-  .waves {
-    display: flex;
-    width: 350.4px;
-    height: 29.2px;
-  }
-
-  .button {
-    width: 252.29px;
-    height: 41.8px;
+    font-size: 62.5%;
   }
 
 }
