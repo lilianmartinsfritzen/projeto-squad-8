@@ -1,0 +1,64 @@
+html {
+  font-size: 62.5%;
+}
+
+.main {
+  display: flex;
+}
+
+.white-box {
+  display: flex;
+  background: var(--grey-light);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  width: 50%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 259px;
+  max-height: 75px;
+  margin-top: 2.9%;
+  margin-left: 2.9%;
+}
+
+.bud {
+     /* display: flex; */
+    /* border-radius: 10px; */
+    /* background-color: var(--orange-dark); */
+    box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
+    /* width: 13vw; */
+    /* height: 9vh; */
+    cursor: pointer;
+    border: 0;
+    /* align-self: flex-end; */
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 2.4rem; */
+  }
+
+.orange-box {
+  background-color: var(--orange);
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  height: 100vh;
+}
+
+.orange-box-content {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  /* margin: auto; */
+}
