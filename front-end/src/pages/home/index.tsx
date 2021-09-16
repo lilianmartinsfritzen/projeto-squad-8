@@ -55,11 +55,11 @@ export default function Login() {
               name="password"
               placeholder="Senha" />
           </div>
-          <Button className="bud" type="submit">Entrar</Button>
+          <Button className="bud bud-orange-login" type="submit">Entrar</Button>
         </form>
       </section>
       <section className="orange-box">
-        <div className="orange-box-content">
+        <div className="orange-box-content-login">
           <p className="orange-box-text">Estamos aqui para facilitar o agendamento da sua ida ao escritório, fazendo com que ele se torne rápido e seguro para todos!</p>
           <img
             className="ilustracao-login"

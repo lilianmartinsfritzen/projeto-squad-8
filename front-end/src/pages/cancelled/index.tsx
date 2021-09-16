@@ -10,25 +10,27 @@ const Cancelled = () => {
   return (
     <main className="main">
       <section className="white-box">
-        <h1>
+        <h1>        
+        <a href="/">
           <img
             className="logo"
             src={logoFCamaraImg}
             alt="Logo FCamara"
           />
+        </a>
         </h1>
-        <div className="white-box-content">
+        <div className="white-box-content-cancelled">
           <img
             className="check-icon"
             src={checkImg}
             alt="Ícone de Confirmação"
           />
-          <div className="white-box-text">
-            <p className="orange-text">Agendamento desmarcado</p>
+          <div className="white-box-text-cancelled">
+            <p className="orange-text-cancelled">Agendamento desmarcado</p>
             {/* Pegar informações sobre quem foi desmarcado!! */}
-            <p className="info-text">Quinta-feira, 05 de maio de 2022 em São Paulo</p>
+            <p className="info-text-cancelled">Quinta-feira, 05 de maio de 2022 em São Paulo</p>
           </div>
-          <Button className="button" type='submit'>Encerrar Sessão</Button>
+          <Button className="bud bud-cancelled" type='submit'>Encerrar Sessão</Button>
         </div>
       </section>
       <section className="orange-box">

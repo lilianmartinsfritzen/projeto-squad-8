@@ -1,37 +1,8 @@
-html {
-  font-size: 62.5%;
-}
-
-.main {
-  display: flex;
-}
-
-.white-box {
-  display: flex;
-  background: var(--grey-light);
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.4rem;
-  width: 50%;
-  height: 130vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  max-width: 229px;
-  max-height: 45px;
-  margin-top: 2.9%;
-  margin-left: 2.9%;
-}
+@import url("../styles/pattern.css");
 
 .texto-selected {
   font-weight: 600;
-  margin-top: 55vh;
+  margin-top: 50vh;
   margin-bottom: 2vh;
 }
 
@@ -41,17 +12,15 @@ html {
   margin: 0;
 }
 
-.bud {
+.bud-calendar {
   border-radius: 10px 10px 0 0;
-  color: var(--white);
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 500;
   font-size: 2.4rem;
   width: 20.15vw;
   height: 10vh;
-  cursor: pointer;
-  border: 0;
+  min-width: 87.5px;
+  /* min-height: 201px; */
+  max-width: 275px;
+  /* min-height: 380px; */
 }
 
 .bud-saopaulo {
@@ -72,7 +41,9 @@ html {
   width: 40.30vw;
   height: 65vh;
   min-width: 175px;
-  min-height: 201px;
+  min-height: 250px;
+  max-width: 550px;
+  max-height: 320px;
   cursor: pointer;
 }
 
@@ -84,7 +55,7 @@ html {
   font-style: normal;
   font-size: 2.4rem;
   align-items: center;
-  height: 25px;
+  height: 30px;
 }
 
 .calendar .day-names {
@@ -198,32 +169,38 @@ html {
   padding: 2%;
 }
 
-.bud-schedule {
+.bud-schedule-calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   background-color: var(--orange-dark);
   border-radius: 10px;
-  box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
+  /* box-shadow: -1px 2px 4px rgba(0,0,0,0.26); */
   min-width: 197px;
   min-height: 63px;
   width: 20vw;
   height: 10vh;
   align-self: flex-end;
-  cursor: pointer;
+  /* cursor: pointer; */
   margin-right: 5%;
   margin-top: 5%;
   margin-bottom: 30px;
 
 }
 
-.orange-box {
-  display: flex;
+.orange-box-calendar {
   background-color: var(--orange);
-  justify-content: flex-end;
-  align-items: center;
-  width: 50%;
-  height: 130vh;
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 130vh;
 }
 
-.orange-box-content {
+.orange-box-content-schedule-calendar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 15%;
   margin-bottom: 30vh;
 }
@@ -244,24 +221,63 @@ html {
   }
 
   
-.bud-schedule {
+.bud-schedule-calendar{
     min-height: 50px;
     width: 15vw;
     height: 6vh;
   }
+/* 
+  width: 40.30vw;
+  height: 65vh;
+  min-width: 175px;
+  min-height: 201px;
+  max-width: 550px;
+  max-height: 320px; */
+
+  .bud-calendar {
+    min-width: 198.5px;
+  }
+
+  .calendar {
+    min-width: 397px;
+    min-height: 235px;
+    /* min-width: 397px; */
+    /* min-height: 230px; */
+  }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 844px) {
   html {
     font-size: 48%;
   }
 
-  .bud-schedule {
+  .texto-selected {
+    margin-top: 30vh;
+  }
+
+  .bud-schedule-calendar {
     min-width: 60px;
+  }
+
+  .bud-calendar {
+    min-width: 150px;
+    max-width: 150px;
+  }
+
+  .calendar {
+    min-width: 300px;
+    max-width: 300px;
+    /* min-height: 230px; */
+    /* min-width: 397px; */
+    /* min-height: 230px; */
   }
 }
 
   @media (max-width: 780px) {
+
+    .calendar {
+      max-height: 240px;
+    }
    
 }
 
@@ -282,7 +298,7 @@ html {
     /* padding: 10%; */
   }
 
-  .bud {
+  .bud-schedule-calendar {
     width: 27.5vw;
 
   }
@@ -301,7 +317,7 @@ html {
     height: 10vh;
   }
 
-  .bud-schedule {
+  .bud-schedule-calendar {
     min-width: 197px;
     min-height: 63px;
     width: 20vw;
@@ -310,7 +326,7 @@ html {
     margin-bottom: 60px;
   }
 
-  .orange-box {
+  .orange-box-calendar {
     display: none;
   }
 }
@@ -325,7 +341,7 @@ html {
     height: 10vh;
   }
 
-  .bud-schedule {
+  .bud-schedule-calendar {
     min-width: 150px;
     min-height: 50px;
   }
@@ -337,7 +353,7 @@ html {
     font-size: 45%;
   }
 
-  .bud {
+  .bud-schedule-calendar {
     width: 35vw;
 
   }
@@ -353,21 +369,47 @@ html {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 340px) {
+/* 
+  html {
+    font-size: 30%;
+  } */
 
-  .white-box {
-    font-size: 2.7rem;
+  p {
+    margin-left: 7px;
   }
 
-  .bud {
+  .white-box {
+    /* margin-right: 5px; */
+    font-size: 2.2rem;
+  }
+
+  .workspace {
+    font-size: 2.2rem;
+  }
+
+  .texto-selected {
+    font-size: 2.2rem;
+  }
+
+  .bud-calendar {
+    min-width: 125px;
+    max-width: 125px;
+  }
+  
+
+  .bud-schedule-calendar {
     width: 137px;
     height: 35px;
 
   }
 
   .calendar {
-    width: 274px;
-    height: 166px;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 220px;
+    max-height: 220px;
+    /* width: 50vw; */
   }
 
   .calendar .week {

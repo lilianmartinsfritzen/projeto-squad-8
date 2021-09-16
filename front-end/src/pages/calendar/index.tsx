@@ -56,19 +56,21 @@ export const Calendar: React.FC<CalendarProps> = ({ currentDate, onChange }) => 
   return (
     <main className="main">
       <section className="white-box">
-        <img
-          className="logo"
-          src={logoFCamaraImg}
-          alt="Logotipo FCamara"
-        />
-        <p className="texto-selected">Selecione a estação de trabalho:</p>
+        <a href="/">
+          <img
+            className="logo"
+            src={logoFCamaraImg}
+            alt="Logotipo FCamara"
+          />
+        </a>
+        <p className="texto-selected">Selecione o escritório e a data:</p>
         <div className="bud-unit">
           <Button
-            className="bud bud-saopaulo"
+            className="bud bud-calendar bud-saopaulo"
             onClick={() => setUnit("São Paulo")}>São Paulo
           </Button>
           <Button
-            className="bud bud-santos"
+            className="bud  bud-calendar bud-santos"
             onClick={() => setUnit("Santos")}>Santos
           </Button>
         </div>
@@ -113,10 +115,10 @@ export const Calendar: React.FC<CalendarProps> = ({ currentDate, onChange }) => 
             ))} 
           </select>
         </div>
-        <Link to="/components/ChangeCalendar" className="bud bud-schedule">Agendar</Link>
+        <Link to="/scheduled" className="bud bud-schedule-calendar">Agendar</Link>
       </section>
-      <section className="orange-box">
-        <div className="orange-box-content">
+      <section className="orange-box-calendar">
+        <div className="orange-box-content-schedule-calendar">
           <img
             className="calendar-ilustration"
             src={calendarImg}
