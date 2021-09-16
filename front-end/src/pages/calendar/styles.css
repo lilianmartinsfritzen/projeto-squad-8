@@ -24,18 +24,24 @@ html {
   left: 0;
   width: 100%;
   max-width: 229px;
-  max-height: 45;
+  max-height: 45px;
   margin-top: 2.9%;
   margin-left: 2.9%;
 }
 
 .texto-selected {
   font-weight: 600;
-  margin-top: 20%;
+  margin-top: 55vh;
   margin-bottom: 2vh;
 }
 
-.button {
+.bud-unit {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.bud {
   border-radius: 10px 10px 0 0;
   color: var(--white);
   font-family: 'Montserrat', sans-serif;
@@ -48,22 +54,26 @@ html {
   border: 0;
 }
 
-.button-saopaulo {
+.bud-saopaulo {
   background-color: var(--orange);
+  margin: 0;
 }
 
-.button-santos {
+.bud-santos {
   background-color: var(--grey-button);
   color: var(--orange);
+  margin: 0;
 }
 
 .calendar {
   background-color: var(--orange);
+  margin-bottom: 20px;
   border-radius: 10px;
   width: 40.30vw;
-  height: 47vh;
+  height: 65vh;
+  min-width: 175px;
+  min-height: 201px;
   cursor: pointer;
-  margin-bottom: 30px;
 }
 
 .calendar .header {
@@ -72,11 +82,9 @@ html {
   color: var(--white);
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-weight: 500;
   font-size: 2.4rem;
-  /* line-height: 29px; */
   align-items: center;
-  height: 6vh;
+  height: 25px;
 }
 
 .calendar .day-names {
@@ -106,7 +114,7 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 3.6rem;
+  font-size: 3rem;
   width: calc(100% / 7);
   text-align: center;
   text-transform: uppercase;
@@ -122,7 +130,7 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 3.6rem;
+  font-size: 3rem;
   /* line-height: 44px; */
   width: calc(100% / 7);
   display: inline-block;
@@ -190,7 +198,7 @@ html {
   padding: 2%;
 }
 
-.button-schedule {
+.bud-schedule {
   background-color: var(--orange-dark);
   border-radius: 10px;
   box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
@@ -202,6 +210,7 @@ html {
   cursor: pointer;
   margin-right: 5%;
   margin-top: 5%;
+  margin-bottom: 30px;
 
 }
 
@@ -235,7 +244,7 @@ html {
   }
 
   
-.button-schedule {
+.bud-schedule {
     min-height: 50px;
     width: 15vw;
     height: 6vh;
@@ -247,7 +256,7 @@ html {
     font-size: 48%;
   }
 
-  .button-schedule {
+  .bud-schedule {
     min-width: 60px;
   }
 }
@@ -273,7 +282,7 @@ html {
     /* padding: 10%; */
   }
 
-  .button {
+  .bud {
     width: 27.5vw;
 
   }
@@ -292,7 +301,7 @@ html {
     height: 10vh;
   }
 
-  .button-schedule {
+  .bud-schedule {
     min-width: 197px;
     min-height: 63px;
     width: 20vw;
@@ -316,7 +325,7 @@ html {
     height: 10vh;
   }
 
-  .button-schedule {
+  .bud-schedule {
     min-width: 150px;
     min-height: 50px;
   }
@@ -328,7 +337,7 @@ html {
     font-size: 45%;
   }
 
-  .button {
+  .bud {
     width: 35vw;
 
   }
@@ -350,7 +359,7 @@ html {
     font-size: 2.7rem;
   }
 
-  .button {
+  .bud {
     width: 137px;
     height: 35px;
 
