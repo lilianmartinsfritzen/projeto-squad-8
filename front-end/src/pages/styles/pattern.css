@@ -30,21 +30,14 @@ html {
 }
 
 .bud {
-     /* display: flex; */
-    /* border-radius: 10px; */
-    /* background-color: var(--orange-dark); */
-    box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
-    /* width: 13vw; */
-    /* height: 9vh; */
-    cursor: pointer;
-    border: 0;
-    /* align-self: flex-end; */
-    color: var(--white);
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    /* font-size: 2.4rem; */
-  }
+  box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
+  cursor: pointer;
+  border: 0;
+  color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;   
+}
 
 .orange-box {
   background-color: var(--orange);
@@ -60,5 +53,4 @@ html {
   flex-direction: column;
   align-self: center;
   justify-content: center;
-  /* margin: auto; */
 }

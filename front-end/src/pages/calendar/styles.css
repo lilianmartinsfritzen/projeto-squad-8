@@ -18,9 +18,7 @@
   width: 20.15vw;
   height: 10vh;
   min-width: 87.5px;
-  /* min-height: 201px; */
   max-width: 275px;
-  /* min-height: 380px; */
 }
 
 .bud-saopaulo {
@@ -102,7 +100,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 3rem;
-  /* line-height: 44px; */
   width: calc(100% / 7);
   display: inline-block;
   color: var(--white);
@@ -110,13 +107,6 @@
   text-align: center;
 
 }
-
-/* .calendar .day div {
-  margin: auto; 
-  padding: auto;
-  width: 54px;
-  height: 44px; 
-} */
 
 .calendar .day div.before {
   color: var(--red);
@@ -176,17 +166,14 @@
   text-decoration: none;
   background-color: var(--orange-dark);
   border-radius: 10px;
-  /* box-shadow: -1px 2px 4px rgba(0,0,0,0.26); */
   min-width: 197px;
   min-height: 63px;
   width: 20vw;
   height: 10vh;
   align-self: flex-end;
-  /* cursor: pointer; */
   margin-right: 5%;
   margin-top: 5%;
   margin-bottom: 30px;
-
 }
 
 .orange-box-calendar {
@@ -219,30 +206,20 @@
   .logo {
     width: 20%;
   }
-
-  
+ 
 .bud-schedule-calendar{
     min-height: 50px;
     width: 15vw;
     height: 6vh;
   }
-/* 
-  width: 40.30vw;
-  height: 65vh;
-  min-width: 175px;
-  min-height: 201px;
-  max-width: 550px;
-  max-height: 320px; */
 
-  .bud-calendar {
+.bud-calendar {
     min-width: 198.5px;
-  }
+}
 
   .calendar {
     min-width: 397px;
     min-height: 235px;
-    /* min-width: 397px; */
-    /* min-height: 230px; */
   }
 }
 
@@ -267,18 +244,13 @@
   .calendar {
     min-width: 300px;
     max-width: 300px;
-    /* min-height: 230px; */
-    /* min-width: 397px; */
-    /* min-height: 230px; */
   }
 }
 
   @media (max-width: 780px) {
-
     .calendar {
       max-height: 240px;
-    }
-   
+    }  
 }
 
 @media (max-width: 720px) {
@@ -294,13 +266,10 @@
   .white-box {
     width: 100%;
     height: 100vh;
-    /* margin-bottom: 10%; */
-    /* padding: 10%; */
   }
 
   .bud-schedule-calendar {
     width: 27.5vw;
-
   }
 
   .texto-selected {
@@ -345,7 +314,6 @@
     min-width: 150px;
     min-height: 50px;
   }
-
 }
 
 @media (max-width: 490px) {
@@ -355,7 +323,6 @@
 
   .bud-schedule-calendar {
     width: 35vw;
-
   }
 
   .calendar {
@@ -370,17 +337,12 @@
 }
 
 @media (max-width: 340px) {
-/* 
-  html {
-    font-size: 30%;
-  } */
 
   p {
     margin-left: 7px;
   }
 
   .white-box {
-    /* margin-right: 5px; */
     font-size: 2.2rem;
   }
 
@@ -401,7 +363,6 @@
   .bud-schedule-calendar {
     width: 137px;
     height: 35px;
-
   }
 
   .calendar {
@@ -409,7 +370,6 @@
     max-width: 250px;
     min-height: 220px;
     max-height: 220px;
-    /* width: 50vw; */
   }
 
   .calendar .week {

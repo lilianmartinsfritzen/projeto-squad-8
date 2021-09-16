@@ -31,15 +31,7 @@ a {
   width: 36vw;
   height: 6vh;
   text-align: center;
-  /* cursor: pointer; */
-  /* border: 0; */
-  
-  /* color: var(--white); */
-  /* font-family: 'Montserrat', sans-serif; */
-  /* font-style: normal; */
-  /* font-weight: 500; */
   font-size: 2.4rem;
-  /* line-height: 2.9rem; */
   margin-bottom: 5%;
 }
 
@@ -91,14 +83,12 @@ a {
   .bud-dashboard {
     width: 72vw;
     height: 6.5vh;
-    /* font-size: 1.8rem; */
   }
 
   .orange-box {
     display: none;
   }
 }
-
 
 @media (max-width: 471px) {
 

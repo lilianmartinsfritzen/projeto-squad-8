@@ -1,6 +1,5 @@
 @import url("../styles/pattern.css");
 
-
 .white-box-content-schedule-list {
   display: flex;
   flex-direction: column;
@@ -22,15 +21,8 @@
 .bud-orange-schedule-list {
   border-radius: 10px;
   background-color: var(--orange-dark);
-  /* box-shadow: -1px 2px 4px rgba(0,0,0,0.26); */
   width: 40vw;
   height: 15vh;
-  /* cursor: pointer; */
-  /* border: 0; */
-  /* color: var(--white); */
-  /* font-family: 'Montserrat', sans-serif; */
-  /* font-style: normal; */
-  /* font-weight: 500; */
   font-size: 2rem;
   line-height: 2.9rem;
   margin-bottom: 5%;
@@ -42,18 +34,10 @@
 .bud-grey-schedule-list {
   border-radius: 10px;
   background-color: var(--grey-button);
-  /* box-shadow: -1px 2px 4px rgba(0,0,0,0.26); */
   width: 40vw;
   height: 15vh;
   color: var(--grey-light);
-  /* cursor: pointer; */
-  /* border: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  color: var(--dark);
-  font-weight: 500; */
   font-size: 2rem;
-  /* line-height: 2.9rem; */
   margin-bottom: 5%;
   text-align: left;
   align-self: center;
@@ -68,17 +52,9 @@
 .bud-deselect {
   border-radius: 10px;
   background-color: var(--orange);
-  /* box-shadow: -1px 2px 4px rgba(0,0,0,0.26); */
   width: 15vw;
   height: 9vh;
-  /* cursor: pointer; */
-  /* border: 0; */
-  /* color: var(--white);
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 500; */
   font-size: 2rem;
-  /* line-height: 2.9rem; */
   margin-bottom: 5%;
   align-self: flex-end; 
   margin-top: 15%;

@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: center;
   padding: 5%;
-  /* margin-top: 20%; */
 }
 
 .image-date {
@@ -94,14 +93,12 @@ a {
   .image-date {
     margin-bottom: 13.5px;
     width: 57.59px;
-    /* height: ; */
   }
 
   .bud-scheduled {
     align-self: center;
     width: 40vw;
     height: 8vh;
-    /* font-size: 2.6rem; */
   }
 
   .orange-box {
