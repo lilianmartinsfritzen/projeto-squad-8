@@ -1,21 +1,12 @@
-// import { useHistory } from "react-router";
-import { Button } from "../../components/Button";
+import { Button } from '../../components/Button';
+
 import logoFCamaraImg from '../../assets/images/logo-fcamara.svg'
 import Ondulacoes from '../../assets/images/ondinhas.svg'
 import ilustracaoHomeImg from '../../assets/images/ilustracao-home.svg'
 import './styles.css'
-
+import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
-  // const history = useHistory();
-
-  // function navigateToConfimation() {
-  //   history.push('/confirmation/Confirmation')
-  // }
-
-  // function navigateToDeselect() {
-  //   history.push('/deselect/Deselect')
-  // }
 
   return (
     <main className="main">
@@ -33,8 +24,8 @@ const Dashboard = () => {
             src={Ondulacoes}
             alt="Logotipo FCamara"
           />
-          <Button className="button" type='submit'>Agendamento</Button>
-          <Button className="button" type='submit'>Desmarcar agendamento</Button>
+          <Link to="/components/ChangeCalendar" className="button" >Agendamento</Link>
+          <Link to="/scheduleList" className="button" type='submit'>Desmarcar agendamento</Link>
           <Button className="button" type='submit'>Relatórios (em breve)</Button>
         </div>
       </section>

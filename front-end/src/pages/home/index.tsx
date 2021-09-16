@@ -1,26 +1,30 @@
-import { useForm } from "react-hook-form";
-
-import './style.css'
+import { FormEvent, useContext, useState } from "react";
+import { AuthContext } from "../../contexts/AuthContext";
 import { Button } from "../../components/Button";
+
 import logoFCamaraImg from '../../assets/images/logo-fcamara.svg'
 import ilustracaoLoginImg from '../../assets/images/ilustracao-login.svg'
+import './style.css'
 
-type FormData = {
-  email: string;
-  password: string;
-}
+export default function Login() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
 
-const Login = () => {
-  const { register, handleSubmit } = useForm<FormData>();
+  const { signIn } = useContext(AuthContext)
 
-  const onSubmit = (formData: FormData) => {
-    console.log(formData)
+  async function handleSubmit(event: FormEvent) {
+    event.preventDefault();
+
+    const data = {
+      email,
+      password
+    }
+    signIn(data)
   }
 
   return (
     <main className="main">
       <section className="white-box">
-        <h1>
           <img
             className="logo"
             src={logoFCamaraImg}
@@ -31,26 +35,27 @@ const Login = () => {
             src={logoFCamaraImg}
             alt="Logotipo FCamara"
             />
-        </h1>
-        <form className="login-form" onSubmit={handleSubmit(onSubmit)}>
+        <form className="login-form" onSubmit={handleSubmit}>
           <div>
             <label>Login</label>
-            <input
-              {...register("email")}
-              name="email"
+            <input              
               type="email"
-              placeholder="E-mail" />
+              value={email}
+              onChange={e => setEmail(e.target.value)}
+              name="email"
+              placeholder="E-mail"
+            />
           </div>
           <div>
             <label>Senha</label>
             <input
-              {...register("password")}
-              name="password"
               type="password"
+              value={password}
+              onChange={e => setPassword(e.target.value)}
+              name="password"
               placeholder="Senha" />
           </div>
-          <Button className="button" type='submit'>Entrar</Button>
-          {/* <button>Entrar</button> */}
+          <Button className="button" type="submit">Entrar</Button>
         </form>
       </section>
       <section className="orange-box">
@@ -67,6 +72,5 @@ const Login = () => {
   );
 }
 
-export default Login;
 
 

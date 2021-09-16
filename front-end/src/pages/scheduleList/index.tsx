@@ -1,8 +1,8 @@
-import './styles.css'
 import { Button } from "../../components/Button";
+
 import logoFCamaraImg from '../../assets/images/logo-fcamara.svg'
 import calendarImg from '../../assets/images/calendar.svg'
-
+import './styles.css'
 
 const ScheduleList = () => {
   return (

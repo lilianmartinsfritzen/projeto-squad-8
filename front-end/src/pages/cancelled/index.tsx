@@ -1,8 +1,9 @@
-import './style.css'
 import { Button } from "../../components/Button";
+
 import logoFCamaraImg from '../../assets/images/logo-fcamara.svg'
 import desmarcarFinalImg from '../../assets/images/desmarcar-final.svg'
 import checkImg from '../../assets/images/check.svg'
+import './style.css'
 
 
 const Cancelled = () => {

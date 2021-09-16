@@ -1,6 +1,13 @@
+import React from "react"
 import "./styles.css";
+import { MomentProps } from "../../utils/types";
 
-export function CalendarHeader({currentDate, setCurrentDate}) {
+type CalendarHeaderProps = {
+  currentDate: MomentProps;
+  setCurrentDate: React.Dispatch<React.SetStateAction<MomentProps>>;
+}
+
+export const CalendarHeader: React.FC<CalendarHeaderProps> = ({currentDate, setCurrentDate}) => {
   function currMonthName() {
     return currentDate.format("MMMM")
   }
