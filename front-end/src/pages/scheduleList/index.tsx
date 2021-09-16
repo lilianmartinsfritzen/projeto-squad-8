@@ -18,14 +18,16 @@ const ScheduleList = () => {
         </a>
         </h1>
         <div className="white-box-content-schedule-list">
-          <div>
-            <h2 className="deselect-schedule">Dermarcar Agendamento</h2>
+          <div>      
+            <h2 className="deselect-schedule">Dermarcar Agendamento</h2>            
           </div>
             <Button className="bud bud-orange-schedule-list">Quinta-feira, 05 de maio de 2022
               em São Paulo</Button>
             <Button className="bud bud-grey-schedule-list">Terça-feira, 10 de maio de 2022
               em São Paulo</Button>
-            <Button className="bud bud-deselect">Desmarcar</Button>
+            <a href="/cancelled">
+              <Button className="bud bud-deselect">Desmarcar</Button>
+            </a>
         </div>
       </section>
       <section className="orange-box">

@@ -30,7 +30,9 @@ const Cancelled = () => {
             {/* Pegar informações sobre quem foi desmarcado!! */}
             <p className="info-text-cancelled">Quinta-feira, 05 de maio de 2022 em São Paulo</p>
           </div>
+          <a href="/">
           <Button className="bud bud-cancelled" type='submit'>Encerrar Sessão</Button>
+          </a>
         </div>
       </section>
       <section className="orange-box">
