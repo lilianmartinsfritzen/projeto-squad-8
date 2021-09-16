@@ -110,7 +110,7 @@ export const Calendar: React.FC<CalendarProps> = ({ currentDate, onChange }) => 
             ))}
           </select>
         </div>
-        <Button type="submit" className="button button-schedule">Agendar</Button>
+        <Button className="button button-schedule">Agendar</Button>
       </section>
       <section className="orange-box">
         <img
