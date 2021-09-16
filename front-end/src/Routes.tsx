@@ -22,7 +22,7 @@ const Routes = () => (
       <Route path="/scheduled">
         <Scheduled />
       </Route>
-      <Route path="/components">
+      <Route path="/components/ChangeCalendar">
         <ChangeCalendar />
       </Route>
       <Route path="/cancelled">

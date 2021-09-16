@@ -3,6 +3,7 @@ import { Button } from '../../components/Button';
 import logoFCamaraImg from '../../assets/images/logo-fcamara.svg'
 import ilustracaoHomeImg from '../../assets/images/ilustracao-home.svg'
 import './styles.css'
+import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
 
@@ -17,8 +18,8 @@ const Dashboard = () => {
           />
         </h1>
         <div className="white-box-content">
-          <Button className="button" type='submit'>Agendamento</Button>
-          <Button className="button" type='submit'>Desmarcar agendamento</Button>
+          <Link to="/components/ChangeCalendar" className="button" >Agendamento</Link>
+          <Link to="/scheduleList" className="button" type='submit'>Desmarcar agendamento</Link>
           <Button className="button" type='submit'>Relatórios (em breve)</Button>
         </div>
       </section>
