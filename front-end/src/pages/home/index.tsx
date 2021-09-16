@@ -19,8 +19,7 @@ export default function Login() {
       email,
       password
     }
-    
-    await signIn(data)
+    signIn(data)
   }
 
   return (
@@ -52,7 +51,6 @@ export default function Login() {
               placeholder="Senha" />
           </div>
           <Button className="button" type="submit">Entrar</Button>
-          {/* <button>Entrar</button> */}
         </form>
       </section>
       <section className="orange-box">

@@ -1,20 +1,10 @@
-// import { useHistory } from "react-router";
-import { Button } from "../../components/Button";
+import { Button } from '../../components/Button';
+
 import logoFCamaraImg from '../../assets/images/logo-fcamara.svg'
 import ilustracaoHomeImg from '../../assets/images/ilustracao-home.svg'
 import './styles.css'
 
-
 const Dashboard = () => {
-  // const history = useHistory();
-
-  // function navigateToConfimation() {
-  //   history.push('/confirmation/Confirmation')
-  // }
-
-  // function navigateToDeselect() {
-  //   history.push('/deselect/Deselect')
-  // }
 
   return (
     <main className="main">
