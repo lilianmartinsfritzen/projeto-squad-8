@@ -1,6 +1,8 @@
 import React from "react"
-import "./styles.css";
 import { MomentProps } from "../../utils/types";
+import Moment from "moment";
+
+import "./styles.css";
 
 type CalendarHeaderProps = {
   currentDate: MomentProps;
@@ -8,6 +10,7 @@ type CalendarHeaderProps = {
 }
 
 export const CalendarHeader: React.FC<CalendarHeaderProps> = ({currentDate, setCurrentDate}) => {
+
   function currMonthName() {
     return currentDate.format("MMMM")
   }
