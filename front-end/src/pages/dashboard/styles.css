@@ -1,81 +1,41 @@
-html {
-  /* a cada em será considerado 10px */
-  font-size: 62.5%;
-}
+@import url("../styles/pattern.css");
 
-.main {
-  display: flex;
-}
 
-.white-box {
-  display: flex;
-  background: var(--grey-light);
-  width: 50%;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-}
-
-.white-box-content {
+.white-box-content-dashboard {
   display: flex;
   flex-direction: column;
   align-items: center;
  justify-content: center;
 }
 
-.logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  max-width: 259px;
-  max-height: 75px;
-  margin-top: 2.9%;
-  margin-left: 2.9%;
-}
-
 .waves {
   display: none;
 }
 
-.button {
-  /* display: flex; */
+a {
+  display: flex;
+  padding: 0;
+}
+
+.bud-dashboard {
+  margin-right: 0;
+  margin-left: 0;
+  display: flex;
+  align-self: center;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center; 
   border-radius: 10px;
   background-color: var(--orange-dark);
   box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
   width: 36vw;
   height: 6vh;
-  cursor: pointer;
-  border: 0;
-  
-  color: var(--white);
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 500;
+  text-align: center;
   font-size: 2.4rem;
-  line-height: 2.9rem;
   margin-bottom: 5%;
-  align-self: center;
 }
 
-.orange-box {
-  background-color: var(--orange);
-  display: flex;
-  justify-content: flex-end;
-  width: 50%;
-  height: 100vh;
-}
-
-.orange-box-content {
-  padding: 15%;
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.ilustracao-home {
+.ilustracao-dashboard {
   width: 100%;
   max-width: 697px;
   max-height: 689px;
@@ -88,8 +48,16 @@ html {
 }
 
 @media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+
   .logo {
     width: 30%;
+  }
+
+  .bud-dashboard {
+    font-size: 1.8rem;
   }
 }
 
@@ -112,17 +80,15 @@ html {
     margin-bottom: 20%;
   }
 
-  .button {
+  .bud-dashboard {
     width: 72vw;
     height: 6.5vh;
-    font-size: 1.8rem;
   }
 
   .orange-box {
     display: none;
   }
 }
-
 
 @media (max-width: 471px) {
 

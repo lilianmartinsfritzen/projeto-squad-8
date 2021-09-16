@@ -1,39 +1,11 @@
-html {
-  font-size: 62.5%;
-}
+@import url("../styles/pattern.css");
 
-.main {
-  display: flex;
-}
-
-.white-box {
-  display: flex;
-  background: var(--grey-light);
-  width: 50%;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  padding: 2%;
-}
-
-.logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  max-width: 259px;
-  max-height: 75px;
-  margin-top: 2.9%;
-  margin-left: 2.9%;
-}
-
-.white-box-content {
+.white-box-content-scheduled {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 5%;
-  /* margin-top: 20%; */
 }
 
 .image-date {
@@ -43,7 +15,7 @@ html {
   margin-top: 13.5px;
 }
 
-.white-box-text {
+.white-box-text-scheduled {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   text-align: center;
@@ -57,14 +29,14 @@ html {
   margin-bottom: 6%;
 }
 
-.date {
+.date-scheduled {
   font-weight: 600;
   font-size: 2.4rem;
   color: var(--black);
   margin-bottom: 6%;
 }
 
-.address {
+.address-scheduled {
   font-weight: 500;
   font-size: 1.8rem;
   color: var(--black);
@@ -77,36 +49,23 @@ html {
   margin-bottom: 6%;
 }
 
-.button {
+a {
+  text-decoration: none;
+}
+
+.bud-scheduled {
   align-self: flex-end;
   border-radius: 10px;
   background-color: var(--orange-dark);
-  box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
   width: 22vw;
   height: 6.15vh;
-  cursor: pointer;
-  border: 0;
   color: var(--white);
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-weight: 500;
   font-size: 1.8rem;
 }
 
-.orange-box {
-  background-color: var(--orange);
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 50%;
-  height: 100vh;
-}
-
-.orange-box-content {
-  padding: 15%;
-}
-
-.confirmation {
+.image-confirmation {
   width: 100%;
   max-width: 691px;
   max-height: 691px;
@@ -114,7 +73,7 @@ html {
 
 @media (max-width: 1000px) {
   html {
-    font-size: 50%;
+    font-size: 60%;
   }
 
   .logo {
@@ -134,14 +93,12 @@ html {
   .image-date {
     margin-bottom: 13.5px;
     width: 57.59px;
-    /* height: ; */
   }
 
-  .button {
+  .bud-scheduled {
     align-self: center;
     width: 40vw;
     height: 8vh;
-    /* font-size: 2.6rem; */
   }
 
   .orange-box {
@@ -152,6 +109,13 @@ html {
 @media (max-width: 360px) {
   html {
     font-size: 53%;
+  }
+
+}
+
+@media (max-width: 360px) {
+  html {
+    font-size: 40%;
   }
 
 }

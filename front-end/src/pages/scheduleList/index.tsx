@@ -8,20 +8,26 @@ const ScheduleList = () => {
   return (
     <main className="main">
       <section className="white-box">
-        <img
-          className="logo"
-          src={logoFCamaraImg}
-          alt="Logo FCamara"
-        />
-        <div className="white-box-content">
-          <div className="white-box-text">
-            <h2 className="deselect-schedule">Dermarcar Agendamento</h2>
+        <h1>
+        <a href="/">
+          <img
+            className="logo"
+            src={logoFCamaraImg}
+            alt="Logo FCamara"
+          />
+        </a>
+        </h1>
+        <div className="white-box-content-schedule-list">
+          <div>      
+            <h2 className="deselect-schedule">Dermarcar Agendamento</h2>            
           </div>
-            <Button className="button button-orange" type='submit'>Quinta-feira, 05 de maio de 2022
+            <Button className="bud bud-orange-schedule-list">Quinta-feira, 05 de maio de 2022
               em São Paulo</Button>
-            <Button className="button button-grey" type='submit'>Terça-feira, 10 de maio de 2022
+            <Button className="bud bud-grey-schedule-list">Terça-feira, 10 de maio de 2022
               em São Paulo</Button>
-            <Button className="button button-deselect" type='submit'>Desmarcar</Button>
+            <a href="/cancelled">
+              <Button className="bud bud-deselect">Desmarcar</Button>
+            </a>
         </div>
       </section>
       <section className="orange-box">
