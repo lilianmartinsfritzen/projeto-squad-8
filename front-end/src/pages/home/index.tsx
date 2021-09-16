@@ -55,7 +55,7 @@ export default function Login() {
               name="password"
               placeholder="Senha" />
           </div>
-          <Button className="button" type="submit">Entrar</Button>
+          <Button className="bud" type="submit">Entrar</Button>
         </form>
       </section>
       <section className="orange-box">

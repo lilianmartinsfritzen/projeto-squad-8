@@ -17,11 +17,11 @@ const ScheduleList = () => {
           <div className="white-box-text">
             <h2 className="deselect-schedule">Dermarcar Agendamento</h2>
           </div>
-            <Button className="button button-orange" type='submit'>Quinta-feira, 05 de maio de 2022
+            <Button className="bud bud-orange">Quinta-feira, 05 de maio de 2022
               em São Paulo</Button>
-            <Button className="button button-grey" type='submit'>Terça-feira, 10 de maio de 2022
+            <Button className="bud bud-grey">Terça-feira, 10 de maio de 2022
               em São Paulo</Button>
-            <Button className="button button-deselect" type='submit'>Desmarcar</Button>
+            <Button className="bud bud-deselect">Desmarcar</Button>
         </div>
       </section>
       <section className="orange-box">

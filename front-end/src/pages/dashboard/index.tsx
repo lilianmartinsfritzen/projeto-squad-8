@@ -24,9 +24,9 @@ const Dashboard = () => {
             src={Ondulacoes}
             alt="Logotipo FCamara"
           />
-          <Link to="/components/ChangeCalendar" className="button" >Agendamento</Link>
-          <Link to="/scheduleList" className="button" type='submit'>Desmarcar agendamento</Link>
-          <Button className="button" type='submit'>Relatórios (em breve)</Button>
+          <Link to="/components/ChangeCalendar" className="bud" >Agendamento</Link>
+          <Link to="/scheduleList" className="bud" type='submit'>Desmarcar agendamento</Link>
+          <Button className="bud">Relatórios (em breve)</Button>
         </div>
       </section>
       <section className="orange-box">

@@ -46,7 +46,7 @@ html {
   margin-top: 100px;
 }
 
-.button-orange {
+.bud-orange {
   border-radius: 10px;
   background-color: var(--orange-dark);
   box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
@@ -66,7 +66,7 @@ html {
   padding: 2%;
 }
 
-.button-grey {
+.bud-grey {
   border-radius: 10px;
   background-color: var(--grey-button);
   box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
@@ -87,7 +87,7 @@ html {
   padding: 2%;
 }
 
-.button-deselect {
+.bud-deselect {
   border-radius: 10px;
   background-color: var(--orange);
   box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
@@ -111,7 +111,7 @@ html {
   display: flex;
   justify-content: flex-end;
   width: 50%;
-  height: 100vh;
+  height: 100%;
 }
 
 .orange-box-content {
@@ -151,15 +151,15 @@ html {
     font-size: 3.5rem;
   }
 
-  .button-orange {
+  .bud-orange {
     width: 60vw;
   }
 
-  .button-grey {
+  .bud-grey {
     width: 60vw;
   }
 
-  .button-deselect {
+  .bud-deselect {
     width: 30vw;
     align-self: center;
   }
@@ -180,12 +180,12 @@ html {
     font-size: 2.9rem;
   }
 
-  .button-orange {
+  .bud-orange {
     height: auto;
     padding: 10px;
   }
 
-  .button-grey {
+  .bud-grey {
     height: auto;
     padding: 10px;
   }
@@ -196,19 +196,19 @@ html {
     font-size: 2.7rem;
   }
 
-  .button-orange {
+  .bud-orange {
     width: 192px;
     height: 86px;
     padding: 10px;
   }
 
-  .button-grey {
+  .bud-grey {
     width: 192px;
     height: 86px;
     padding: 10px;
   }
 
-  .button-deselect {
+  .bud-deselect {
     width: 96px;
     height: 49.13px;
     align-self: center;
