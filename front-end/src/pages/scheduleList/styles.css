@@ -1,0 +1,155 @@
+@import url("../styles/pattern.css");
+
+.white-box-content-schedule-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: center;
+}
+
+.deselect-schedule {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+  color: var(--orange-dark);
+  margin-bottom: 10%;
+  margin-top: 100px;
+}
+
+.bud-orange-schedule-list {
+  border-radius: 10px;
+  background-color: var(--orange-dark);
+  width: 40vw;
+  height: 15vh;
+  font-size: 2rem;
+  line-height: 2.9rem;
+  margin-bottom: 5%;
+  text-align: left;
+  align-self: center;
+  padding: 2%;
+}
+
+.bud-grey-schedule-list {
+  border-radius: 10px;
+  background-color: var(--grey-button);
+  width: 40vw;
+  height: 15vh;
+  color: var(--grey-light);
+  font-size: 2rem;
+  margin-bottom: 5%;
+  text-align: left;
+  align-self: center;
+  padding: 2%;
+}
+
+.bud-grey-schedule-list::before {
+  background-color: var(--orange-dark);
+  color: var(--white);
+}
+
+.bud-deselect {
+  border-radius: 10px;
+  background-color: var(--orange);
+  width: 15vw;
+  height: 9vh;
+  font-size: 2rem;
+  margin-bottom: 5%;
+  align-self: flex-end; 
+  margin-top: 15%;
+}
+
+.calendar-ilustration {
+  width: 100%;
+  max-width: 720px;
+  max-height: 716px;
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+
+  .logo {
+    width: 20%;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .logo {
+    display: none;
+  }
+
+  .white-box {
+    width: 100%;
+  }
+
+  .deselect-schedule {
+    font-size: 3.5rem;
+  }
+
+  .bud-orange-schedule-list {
+    width: 60vw;
+  }
+
+  .bud-grey-schedule-list {
+    width: 60vw;
+  }
+
+  .bud-deselect {
+    width: 30vw;
+    align-self: center;
+  }
+
+  .orange-box {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  html {
+    font-size: 48%;
+  }
+}
+
+@media (max-width: 375px) {
+  .deselect-schedule {
+    font-size: 2.9rem;
+  }
+
+  .bud-orange-schedule-list {
+    height: auto;
+    padding: 10px;
+  }
+
+  .bud-grey-schedule-list {
+    height: auto;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .deselect-schedule {
+    font-size: 2.7rem;
+  }
+
+  .bud-orange-schedule-list {
+    width: 192px;
+    height: 86px;
+    padding: 10px;
+  }
+
+  .bud-grey-schedule-list {
+    width: 192px;
+    height: 86px;
+    padding: 10px;
+  }
+
+  .bud-deselect {
+    width: 96px;
+    height: 49.13px;
+    align-self: center;
+  }
+}

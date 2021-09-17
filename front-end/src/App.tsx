@@ -1,11 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Component } from 'react';
+import { AuthProvider } from "./contexts/AuthContext";
 
-function App() {
+import Routes from "./Routes";
+
+export function App() {
   return (
-    <h1>My Turn!</h1>
+    <Routes />
   );
 }
-
-export default App;

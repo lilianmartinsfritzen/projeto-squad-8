@@ -1,0 +1,387 @@
+@import url("../styles/pattern.css");
+
+.texto-selected {
+  font-weight: 600;
+  margin-top: 50vh;
+  margin-bottom: 2vh;
+}
+
+.bud-unit {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.bud-calendar {
+  border-radius: 10px 10px 0 0;
+  font-size: 2.4rem;
+  width: 20.15vw;
+  height: 10vh;
+  min-width: 87.5px;
+  max-width: 275px;
+}
+
+.bud-saopaulo {
+  background-color: var(--orange);
+  margin: 0;
+}
+
+.bud-santos {
+  background-color: var(--grey-button);
+  color: var(--orange);
+  margin: 0;
+}
+
+.calendar {
+  background-color: var(--orange);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 40.30vw;
+  height: 65vh;
+  min-width: 175px;
+  min-height: 250px;
+  max-width: 550px;
+  max-height: 320px;
+  cursor: pointer;
+}
+
+.calendar .header {
+  display: flex;
+  background-color: var(--orange);
+  color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 2.4rem;
+  align-items: center;
+  height: 30px;
+}
+
+.calendar .day-names {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--orange);
+  align-self: center;
+}
+
+.calendar .header .previous {
+  flex: 1;
+  text-align: left;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.calendar .header .next {
+  flex: 1;
+  text-align: right;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.calendar .week {
+  background-color: var(--orange);
+  color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  width: calc(100% / 7);
+  text-align: center;
+  text-transform: uppercase;
+  align-items: center;
+
+}
+
+.calendar .week div {
+  width: 100%;
+}
+
+.calendar .day {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  width: calc(100% / 7);
+  display: inline-block;
+  color: var(--white);
+  align-items: center;
+  text-align: center;
+
+}
+
+.calendar .day div.before {
+  color: var(--red);
+}
+
+.calendar .day div.selected {
+  background-color: var(--red);
+  color: var(--white);
+  font-weight: bold;
+}
+
+.calendar .day div.today {
+  background-color: var(--white);
+  color: var(--red);
+}
+
+.workspace {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+
+  margin-bottom: 30px;
+}
+
+.workspace p {
+  margin-bottom: 30px;
+}
+
+.selected-workspace {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 1.8rem;
+  width: 25vw;
+  height: 7vh;
+  background: var(--white);
+  border: 4px solid var(--orange);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.31);
+  border-radius: 10px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url('../../assets/images/selector-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) center;
+  padding: 2%;
+}
+
+.bud-schedule-calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: var(--orange-dark);
+  border-radius: 10px;
+  min-width: 197px;
+  min-height: 63px;
+  width: 20vw;
+  height: 10vh;
+  align-self: flex-end;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 30px;
+}
+
+.orange-box-calendar {
+  background-color: var(--orange);
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 130vh;
+}
+
+.orange-box-content-schedule-calendar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15%;
+  margin-bottom: 30vh;
+}
+
+.calendar-ilustration {
+  width: 100%;
+  max-width: 720px;
+  max-height: 716px;
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+
+  .logo {
+    width: 20%;
+  }
+ 
+.bud-schedule-calendar{
+    min-height: 50px;
+    width: 15vw;
+    height: 6vh;
+  }
+
+.bud-calendar {
+    min-width: 198.5px;
+}
+
+  .calendar {
+    min-width: 397px;
+    min-height: 235px;
+  }
+}
+
+@media (max-width: 844px) {
+  html {
+    font-size: 48%;
+  }
+
+  .texto-selected {
+    margin-top: 30vh;
+  }
+
+  .bud-schedule-calendar {
+    min-width: 60px;
+  }
+
+  .bud-calendar {
+    min-width: 150px;
+    max-width: 150px;
+  }
+
+  .calendar {
+    min-width: 300px;
+    max-width: 300px;
+  }
+}
+
+  @media (max-width: 780px) {
+    .calendar {
+      max-height: 240px;
+    }  
+}
+
+@media (max-width: 720px) {
+
+  html {
+    font-size: 62.5%;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .white-box {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .bud-schedule-calendar {
+    width: 27.5vw;
+  }
+
+  .texto-selected {
+    margin-top: 200px;
+  }
+
+  .calendar {
+    width: 55vw;
+    height: 60vh;
+  }
+
+  .selected-workspace {
+    width: 55vw;
+    height: 10vh;
+  }
+
+  .bud-schedule-calendar {
+    min-width: 197px;
+    min-height: 63px;
+    width: 20vw;
+    height: 10vh;
+    align-self: center;
+    margin-bottom: 60px;
+  }
+
+  .orange-box-calendar {
+    display: none;
+  }
+}
+
+@media (max-width: 620px) {
+  html {
+    font-size: 50%;
+  }
+
+  .selected-workspace {
+    width: 50vw;
+    height: 10vh;
+  }
+
+  .bud-schedule-calendar {
+    min-width: 150px;
+    min-height: 50px;
+  }
+}
+
+@media (max-width: 490px) {
+  html {
+    font-size: 45%;
+  }
+
+  .bud-schedule-calendar {
+    width: 35vw;
+  }
+
+  .calendar {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 340px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 340px) {
+
+  p {
+    margin-left: 7px;
+  }
+
+  .white-box {
+    font-size: 2.2rem;
+  }
+
+  .workspace {
+    font-size: 2.2rem;
+  }
+
+  .texto-selected {
+    font-size: 2.2rem;
+  }
+
+  .bud-calendar {
+    min-width: 125px;
+    max-width: 125px;
+  }
+  
+
+  .bud-schedule-calendar {
+    width: 137px;
+    height: 35px;
+  }
+
+  .calendar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 220px;
+    max-height: 220px;
+  }
+
+  .calendar .week {
+    font-size: 2.5rem;
+  }
+
+  .calendar .day {
+    font-size: 2.5rem;
+  }
+
+  .selected-workspace {
+    width: 221px;
+    height: 31px;
+  }
+}

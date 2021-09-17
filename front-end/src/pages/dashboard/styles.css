@@ -1,0 +1,99 @@
+@import url("../styles/pattern.css");
+
+
+.white-box-content-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: center;
+}
+
+.waves {
+  display: none;
+}
+
+a {
+  display: flex;
+  padding: 0;
+}
+
+.bud-dashboard {
+  margin-right: 0;
+  margin-left: 0;
+  display: flex;
+  align-self: center;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 10px;
+  background-color: var(--orange-dark);
+  box-shadow: -1px 2px 4px rgba(0,0,0,0.26);
+  width: 36vw;
+  height: 6vh;
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 5%;
+}
+
+.ilustracao-dashboard {
+  width: 100%;
+  max-width: 697px;
+  max-height: 689px;
+}
+
+@media  (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+
+  .logo {
+    width: 30%;
+  }
+
+  .bud-dashboard {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .white-box {
+    width: 100vw;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .waves {
+    display: flex;
+    width: 100vw;
+    margin-bottom: 20%;
+  }
+
+  .bud-dashboard {
+    width: 72vw;
+    height: 6.5vh;
+  }
+
+  .orange-box {
+    display: none;
+  }
+}
+
+@media (max-width: 471px) {
+
+  html {
+    font-size: 62.5%;
+  }
+
+}
