@@ -50,21 +50,27 @@ Para a aplicação de responsividade na página, foi utilizado um padrão de tam
 
 Além desse padrão, a implementação do desing da interface foi constantemente testada na ferramente de responsividade do Crhome para verificar se ela estaria respondendo a diferentes tipos de medidas. É interessante notar que no protótipo do Figma, existem dois tipos de desing, uma versão mobile e outra desktop. Isso também foi implementado. Como resultados para a parte de responsividade, temos uma aplicação que já consegue se adaptar a muitos formatos diferentes de tela, ou seja, todas as telas estão responsivas. Como pode ser visto, com o exemplo de duas telas, a seguir: 
 
-* Página Agendamento:  
-    * *1440px*
-    <img src="assets/images/pages/calendar-1440.png" width="500">
-    * *786px*
-    <img src="assets/images/pages/calendar-768.png" width="500">
-    * *411x824px (Pixel 2 XL)*
-    <img src="assets/images/pages/calendar-411-823.png" width="500">
+* **Página Agendamento**:  
 
-* Página de Cancelar Agendamento:  
-    * *1024px*
-    <img src="assets/images/pages/schedule-list-1024.png" width="500">
-    * *786px*
-    <img src="assets/images/pages/schedule-list-768.png" width="500">
-    * *375x667px (IPhone 6/7/8)*
-    <img src="assets/images/pages/schedule-list-375-667.png" width="500">
+* *1440px*
+<img src="assets/images/pages/calendar-1440.png" width="500">
+
+* *786px*
+<img src="assets/images/pages/calendar-768.png" width="500">
+
+* *411x824px (Pixel 2 XL)*
+<img src="assets/images/pages/calendar-411-823.png" width="500">
+
+* **Página de Cancelar Agendamento:**
+
+* *1024px*
+ <img src="assets/images/pages/schedule-list-1024.png" width="500">
+
+* *786px*
+<img src="assets/images/pages/schedule-list-768.png" width="500">
+
+* *375x667px (IPhone 6/7/8)*
+<img src="assets/images/pages/schedule-list-375-667.png" width="500">
 
 
 <h2 id="calendario">Calendário Funcional</h2>
