@@ -97,4 +97,4 @@ senha: 123456
 
 <hr>
 
-<center> Feito com muito 🧡 pelo Squad-8<br> #FuturosSangueLaranja 🚀 </center>
+<p> Feito com muito 🧡 pelo Squad-8<br> #FuturosSangueLaranja 🚀 <p>
