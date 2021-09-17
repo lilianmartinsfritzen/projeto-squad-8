@@ -96,6 +96,7 @@ senha: 123456
 | <img src="assets/images/pedro.png" width="300"><br>*UX Designer* | Pedro Emerenciano | *"...Co-criei com pessoas incríveis, aprendi a trabalhar mais em equipe e que 15 dias passam voando!"* | [Linkedin](https://www.linkedin.com/in/pedro-emerenciano/) [Email](pemerenciano@outlook.com)
 
 <h2 id="licenca">Licença</h2>
+
 [LICENSE](https://github.com/lilianmartinsfritzen/projeto-squad-8/blob/main/LICENSE)
 
 <hr>
