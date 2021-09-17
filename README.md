@@ -95,6 +95,9 @@ senha: 123456
 | <img src="assets/images/lilian.png" width="300"><br>*Desenvolvedora* | Lílian Martins Fritzen | *"...Senti que tudo passou a fazer mais sentido quando conheci o Pai Flex-Box, amei a liberdade que ele dá a seus filhos. React com suas possibilidades delicinhas e o Typescript, ahh esse sim, tinhoso que só, mas gosto também. De nomes diferentes de restaurantes a vontade de encontrar essa equipe maravilhosa, Squad-8, vocês só reforçaram o quanto escuta ativa, comprometimento e empatia fazem qualquer projeto ser um sucesso. Obrigada!"* | [Github](https://github.com/lilianmartinsfritzen) [Linkedin](https://www.linkedin.com/in/lilian-martins-fritzen/) [Email](liliancmartinsfritzen@gmail.com) |
 | <img src="assets/images/pedro.png" width="300"><br>*UX Designer* | Pedro Emerenciano | *"...Co-criei com pessoas incríveis, aprendi a trabalhar mais em equipe e que 15 dias passam voando!"* | [Linkedin](https://www.linkedin.com/in/pedro-emerenciano/) [Email](pemerenciano@outlook.com)
 
+<h2 id="licenca">Licença</h2>
+[LICENSE](https://github.com/lilianmartinsfritzen/projeto-squad-8/blob/main/LICENSE)
+
 <hr>
 
 <p> Feito com muito 🧡 pelo Squad-8<br> #FuturosSangueLaranja 🚀 <p>
