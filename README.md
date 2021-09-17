@@ -64,6 +64,7 @@ senha: 123456
 ```
 
 <h2 id="resultados">Resultados de Desenvolvimento</h2>
+
 * Implementação do desing da interface com HTML e CSS usando a componentização do React
 * Aplicação de Responsividade nas Telas
 * Criação de um calendário funcional
