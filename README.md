@@ -12,7 +12,7 @@
         <li> <a href="#features">Features</a> </li>
         <li> <a href="#conteudoxterno">Conteúdo externo</a></li>
         <li> <a href="#nossaequipe">Nossa Equipe</a></li>
-    <li><a href="#licencas">Licença</a></li>
+    <li><a href="#licenca">Licença</a></li>
 </ol>
 
 <h2 id="sobre">Sobre</h2> 
