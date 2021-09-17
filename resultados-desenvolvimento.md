@@ -78,6 +78,8 @@ Além desse padrão, a implementação do desing da interface foi constantemente
 Neste caso decidimos criar o nosso próprio DatePicker, essa necessidade surgiu a partir de duas vontades, a primeira era de ter maior liberdade na hora de estilizar o coração do nosso projeto e a segunda foi exatamente o fato de podermos aplicar uma estrutura lógica que nos retornasse um calendário dinâmico e responsivo. 
 Ao pensarmos na estrutura de dados que melhor representaria o calendário; que é composto por um agrupamento de semanas, e que por sua vez está diluído em conjuntos de 7 dias, entendemos que talvez a melhor estrutura para exibi-lo seria por meio de arrays. A biblioteca utilizada para lidar com as datas foi a Moment.JS, entretanto, sabíamos que objetos de data no JS são mutáveis, desta forma tomamos o cuidado de criarmos cópias destes objetos antes de exibi-los. Implementar em código os hooks oferecidos pela biblioteca React trouxe exatamente a fluidez e resposta que gostaríamos ao transitar pelos dias e meses. Aprendemos muito sobre React ao implementarmos a lógica desta parte do projeto.
 
+<img src="assets/images/calendario-funcional.png" width="700">
+
 
 <h2 id="autenticacao">Autenticação </h2>
 
